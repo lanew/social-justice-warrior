@@ -1,0 +1,6 @@
+<%= form_for [:admins, @hot_issue] do |f| %>
+  <%= f.text_field :category %>
+  <%= f.text_field :title %>
+  <%= f.text_field :source_url %>
+  <%= f.submit %>
+<% end %>
